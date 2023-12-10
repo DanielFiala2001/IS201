@@ -1,0 +1,90 @@
+body, header, h1, h2, nav, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {background-color: #8bbcff;}
+
+.side-panel {
+    background-color: #e0e0e0;
+    border: 1 black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.main-content {background-color: #ffffff;}
+a:hover {font-weight: bold;}
+
+header {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center; 
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px; 
+    bottom: 0px;
+    margin-bottom: 0px;
+}
+
+footer a {
+    color: white; 
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+
+footer a:hover {text-decoration: bold;}
+
+img {
+    width: 850px;
+    height: auto;
+}
+
+.side-panel {
+    width: 300px; 
+    background-color: #000000; 
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.side-panel ol, .side-panel ul {
+    padding-left: 20px;
+    color: white;
+}
+
+.side-panel ul {
+    list-style-type: disc;
+    color: white;
+}
+
+.side-panel a {color: white;}
+
+.side-panel a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.side-panel p {color: white;}
+.side-panel h2 {color: white;}

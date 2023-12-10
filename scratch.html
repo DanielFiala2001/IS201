@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard and Video</title>
+    <link href="css/styles2.css" rel="stylesheet" />
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">Resume</a></li>
+        </ul>
+    </nav>
+</header>
+<body class="body">
+    <aside class="side-panel">
+        <h2>Page Navigation</h2>
+        <p style="margin-bottom: 0;"><strong>For Grading Purposes</strong></p>
+        <p style="margin-top: 0;">This page includes:</p>
+        <ol>
+            <li>I chose to make this page about Gross Domestic Product</li>
+            <li><a href="#dash">Live interactive Tableau dashboard</a></li>
+            <li><a href="#vid">Youtube video</a></li>
+            <li>Image or Custom backround
+                <ul>
+                    <li><a href="#pic">Image</a></li>
+                    <li>Backround is custom to match image color</li>
+                </ul>
+            </li>
+            <li>See the unordered list embeded in an order list above</li>
+            <li>Anchors... Anchors Everywhere</li>
+        </ol>
+    </aside>
+    <h1 style="text-align: center;">Dashboard and Video</h1>
+    <h2 style="text-align: center;">I chose to have these be about GDP for some reason</h2>
+
+    <div>
+        <div id=dash class="dashboard" style="text-align: center;">
+            <iframe 
+                src="https://public.tableau.com/views/World-bank_10_0/WorldGDP?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:tabs=yes&:toolbar=yes&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=yes&:loadOrderID=0" 
+                width="850" 
+                height="600">
+            </iframe>
+        </div>
+
+        <div id=vid class="video" style="text-align: center;">
+            <iframe 
+                width="850" 
+                height="600" 
+                src="https://www.youtube.com/embed/_pTkwg6iUV0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+<div style="text-align: center;">
+    <img id=pic src="GDP-Image.jpg" alt="Woot">
+
+</div>
+    <footer>
+        <a href="#Top">Back to the Top</a>
+    </footer>
+</body>
+</html>
